@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | The Code Review</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>The Code Review</h1>
+    </header>
+    <div>
+      <h1>Signup for our newsletter</h1>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+    </div>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Required" required/><br>
+
+        <label>Email Address</label><br>
+        <input type="email" placeholder="Required" required/><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel"><br>
+
+        <label>Street Address</label><br>
+        <input type="text"><br>
+
+        <label>City</label><br>
+        <input type="text"><br>
+
+        <label>State</label><br>
+        <input list="states" placeholder="Choose State"><br>
+        <datalist id="states">
+          <option value="AL">
+          <option value="AK">
+          <option value="AZ">
+          <option value="AR">
+          <option value="CA">
+          <option value="CO">
+          <option value="CT">
+          <option value="DE">
+          <option value="FL">
+          <option value="GA">
+          <option value="HI">
+          <option value="ID">
+          <option value="IL">
+          <option value="IN">
+          <option value="IA">
+          <option value="KS">
+          <option value="KY">
+          <option value="LA">
+          <option value="ME">
+          <option value="MD">
+          <option value="MA">
+          <option value="MI">
+          <option value="MN">
+          <option value="MS">
+          <option value="MO">
+          <option value="MT">
+          <option value="NE">
+          <option value="NV">
+          <option value="NH">
+          <option value="NJ">
+          <option value="NM">
+          <option value="NY">
+          <option value="NC">
+          <option value="ND">
+          <option value="OH">
+          <option value="OK">
+          <option value="OR">
+          <option value="PA">
+          <option value="RI">
+          <option value="SC">
+          <option value="SD">
+          <option value="TN">
+          <option value="TX">
+          <option value="UT">
+          <option value="VT">
+          <option value="VA">
+          <option value="WA">
+          <option value="WV">
+          <option value="WI">
+          <option value="WY">
+        </datalist>
+
+        <label>Zip Code</label><br>
+        <input type="text"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Newsletter</legend>
+        <label>Select the newsletters you would like to receive</label><br>
+        <label for="html-news">
+          <input type="checkbox" id="html-news" value="html">
+          HTML News
+        </label><br>
+        <label for="css">
+          <input type="checkbox" id="css" value="css">
+          CSS News
+        </label><br>
+        <label for="javascript">
+          <input type="checkbox" id="javascript"value="javascript">
+          Javascript News
+        </label><br>
+
+        <label>Newsletter format</label><br>
+        <label for="html">
+          <input type="radio" name="format" value="html" id="html">
+          HTML
+        </label><br>
+        <label for="plain">
+          <input type="radio" name="format" value="plain" id="plain">
+          Plain text
+        </label><br>
+
+        <label>Other topics you'd like to hear about</label><br>
+        <textarea></textarea><br>
+
+        <input type="submit" value="Sign Up">
+      </fieldset>
+    </form>
+    <footer>
+      <small>Copyright The Code Reveiw</small>
+    </footer>
+  </body>
+</html>
