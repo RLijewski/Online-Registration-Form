@@ -218,9 +218,9 @@ input[type="checkbox"]:checked + label:before {
 * Media Queries *
 ****************/
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .wrapper {
-    width: 70%;
+    width: 60%;
   }
 
   .contact div {
