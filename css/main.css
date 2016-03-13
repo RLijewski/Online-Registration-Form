@@ -93,7 +93,7 @@ select {
   margin-bottom: 15px;
 }
 
-input[name="zip"] {
+input[name="zip-code"] {
   width: 40%;
   margin-bottom: 30px;
 }
@@ -201,6 +201,12 @@ input[type="checkbox"]:checked + label:before {
     border: 2px solid #46698b;
 }
 
+label[for="message"] {
+  padding-left: 0;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
 
 
 /**************
@@ -238,7 +244,7 @@ input[type="checkbox"]:checked + label:before {
     width: 70%;
   }
 
-  input[name="zip"] {
+  input[name="zip-code"] {
     width: 30%;
     margin-right: 40%;
   }
